@@ -7,9 +7,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://github.com/isbatullah/chatbox/main/assets/css/chat.css">
-        <link rel="stylesheet" href="https://github.com/isbatullah/chatbox/main/assets/css/style.css">
-        <link rel="stylesheet" href="https://github.com/isbatullah/chatbox/main/assets/css/typing.css">
+        <link rel="stylesheet" href="https://raw.githubusercontent.com/isbatullah/chatbox/main/assets/css/chat.css">
+        <link rel="stylesheet" href="https://https://raw.githubusercontent.com/isbatullah/chatbox/main/assets/css/style.css">
+        <link rel="stylesheet" href="https://raw.githubusercontent.com/isbatullah/chatbox/main/assets/css/typing.css">
         <title>Chatbox</title>
     </head>
     <body>
@@ -18,7 +18,7 @@
                 <div class="chatbox__support">
                     <div class="chatbox__header">
                         <div class="chatbox__image--header">
-                            <img src="https://github.com/isbatullah/chatbox/main/images/image.png" alt="image">
+                            <img src="https://raw.githubusercontent.com/isbatullah/chatbox/main/images/image.png" alt="image">
                         </div>
                         <div class="chatbox__content--header">
                             <h4 class="chatbox__heading--header">Chat support</h4>
@@ -47,11 +47,11 @@
                         </div>
                     </div>
                     <div class="chatbox__footer">
-                        <img src="https://github.com/isbatullah/chatbox/main/images/icons/emojis.svg" alt="">
-                        <img src="https://github.com/isbatullah/chatbox/main/images/icons/microphone.svg" alt="">
+                        <img src="https://raw.githubusercontent.com/isbatullah/chatbox/9f1110828acf2afed3743b0867cb5687cb2c6b19/images/icons/emojis.svg" alt="">
+                        <img src="https://raw.githubusercontent.com/isbatullah/chatbox/9f1110828acf2afed3743b0867cb5687cb2c6b19/images/icons/microphone.svg" alt="">
                         <input type="text" placeholder="Write a message...">
                         <p class="chatbox__send--footer">Send</p>
-                        <img src="https://github.com/isbatullah/chatbox/main/images/icons/attachment.svg" alt="">
+                        <img src="https://raw.githubusercontent.com/isbatullah/chatbox/9f1110828acf2afed3743b0867cb5687cb2c6b19/images/icons/attachment.svg" alt="">
                     </div>
                 </div>
                 <div class="chatbox__button">
