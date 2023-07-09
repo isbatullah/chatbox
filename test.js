@@ -1,8 +1,16 @@
 (function() {
-    // CSS code
-    var widgetStyles = `
 
-    
+    // HTML code
+    var widgetHTML = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+        <title>Chatbox</title>
+        <style>
+          
 
 /* CHATBOX
 =============== */
@@ -257,21 +265,11 @@ span.messages__dot {
         transform: scale(1.05);
     }
 }
-  
-    `;
+        </style>
 
 
 
 
-    // HTML code
-    var widgetHTML = `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
-        <title>Chatbox</title>
     </head>
     <body>
         <div class="container">
@@ -326,10 +324,6 @@ span.messages__dot {
   
     // JS code
     function embedChatWidget() {
-      var styleElement = document.createElement('style');
-      styleElement.innerHTML = widgetStyles;
-
-      
       // Inject HTML
       var widgetContainer = document.createElement('div');
       widgetContainer.innerHTML = widgetHTML;
